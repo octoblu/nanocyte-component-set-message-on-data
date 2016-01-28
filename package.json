@@ -1,6 +1,6 @@
 {
   "name": "nanocyte-component-set-message-on-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nanocyte component set-message-on-data",
   "keywords": [
     "nanocyte",
@@ -19,21 +19,21 @@
     "url": "https://github.com/octoblu/nanocyte-component-set-message-on-data.git"
   },
   "scripts": {
-    "test": "istanbul cover _mocha -- -R spec"
+    "test": "istanbul cover _mocha -- -R spec --require coffee-coverage/register-istanbul"
   },
   "dependencies": {
     "coffee-script": "^1.10.0",
     "nanocyte-component-return-value": "^1.0.0"
   },
   "devDependencies": {
-    "chai": "^3.3.0",
+    "chai": "^3.5.0",
     "codeclimate-test-reporter": "^0.1.1",
     "coffee-coverage": "^0.6.3",
     "coffee-script": "^1.10.0",
-    "istanbul": "^0.3.20",
-    "mocha": "^2.3.3",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.4.4",
     "mocha-istanbul": "^0.2.0",
-    "sinon": "^1.16.1",
+    "sinon": "^1.17.3",
     "sinon-chai": "^2.8.0"
   },
   "peerDependencies": {},
