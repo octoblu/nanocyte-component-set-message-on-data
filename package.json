@@ -1,8 +1,12 @@
 {
   "name": "nanocyte-component-set-message-on-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nanocyte component set-message-on-data",
-  "keywords": ["nanocyte", "octoblu", "meshblu"],
+  "keywords": [
+    "nanocyte",
+    "octoblu",
+    "meshblu"
+  ],
   "homepage": "https://github.com/octoblu/nanocyte-component-set-message-on-data",
   "bugs": "https://github.com/octoblu/nanocyte-component-set-message-on-data/issues",
   "author": {
@@ -32,8 +36,7 @@
     "sinon": "^1.16.1",
     "sinon-chai": "^2.8.0"
   },
-  "peerDependencies": {
-  },
+  "peerDependencies": {},
   "engines": {
     "node": ">=0.10.0",
     "npm": ">=2.0.0"
