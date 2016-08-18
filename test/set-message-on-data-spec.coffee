@@ -3,7 +3,7 @@ SetMessageOnData = require '../src/set-message-on-data'
 
 describe 'SetMessageOnData', ->
   beforeEach ->
-    @sut = new SetMessageOnData transactionGroupId: 'hi'
+    @sut = new SetMessageOnData transactionId: 'hi'
 
   it 'should exist', ->
     expect(@sut).to.be.an.instanceOf ReturnValue

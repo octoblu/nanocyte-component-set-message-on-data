@@ -8,7 +8,7 @@ class SetMessageOnData extends ReturnValue
     {data, message} = envelope
 
     data = {} unless _.isObject data
-    data[@metadata.transactionGroupId] = message
+    data[@metadata.transactionId] = message
 
     return data
 
